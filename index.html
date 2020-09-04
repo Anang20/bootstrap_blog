@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    
+    <title>Halo dunia</title>
+    <style>
+        #overview{
+            background-image: url(asset/image/new.jpg);
+            background-size: cover;
+        }
+
+        @media (max-width: 575.98px){
+            #overview-image{
+                display: none;
+            }
+            .container-fluid{
+                box-sizing: content-box;
+            }
+            #navigation{
+                display: none;
+            }
+            #description h1{
+                font-size: 1.2rem;
+            }
+            .list-article h2{
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- BLOCK HEADER -->
+    <div class="container">
+        <div class="row" id="header">
+            <div id="logo" class="col-6">
+                <a href="index.html">
+                    <img src="asset/image/logo.jpg" alt="logo" style="height: 40px; width: 150px; margin-left: 20px;">
+                </a>
+            </div>
+            <div id="navigation" class="col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#footer">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">Services</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+    </div>
+
+        <!-- BLOK OVERVIEW -->
+        <div id="overview" class="container-fluid">
+            <div class="row">
+                <div id="description" class="col-6 pl-5 pt-2">
+                    <h1 class="text-light">Belajar Coding Itu Menyenangkan</h1>
+                    <p class="text-light">perlu juga banyak belajar dari hal terkecil menjadi hal terbesar,masih ada banyak waktu kok yuk belajar coding</p>
+                    <a class="btn btn-light" href="#">Gabung</a>
+                </div>
+                <div id="overview-image" class="col-6">
+                    <img class="pl-6 ml-5" src="asset/image/anak_koding.png" alt="coding" style="width: 300px; height: 250px">
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- BLOCK ARTICLE -->
+        <div class="container" id="article">
+            <div class="row">
+                <div id="content" class="col-sm-8">
+                    <div class="list-article mt-4" id="#artikel-1">
+                        <img class="img-fluid" src="asset/image/progamming.jpg" alt="progamming">
+                        <a href="#">Article</a>
+                        <div id="author">
+                            <img class="rounded-circle float-left" width="48" height="48" src="asset/image/aku.jpg" alt="aku">
+                            <p class="float-left pt-3 pl-2">4 September 2020</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <h2 class="display-4">Perkembangan Teknologi</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore at assumenda excepturi aperiam quam, aliquam beatae quaerat non quibusdam sequi debitis vero cumque natus mollitia eveniet animi cum eaque.</p>
+                        <a class="btn btn-primary" href="#">Read More</a>
+                    </div>
+                </div>
+                <div id="sidebar" class="col-sm-4">
+                    <ul class="list-group pt-4">
+                        <li class="list-group-item" id="artikel-1"><a href="#artikel-1">Perkembangan Teknologi</a></li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- BLOCK FOOTER -->
+        <div id="footer" class="container-fluid bg-primary text-light mt-5">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2>DEVELOPER</h2>
+                    <p>Anang Syah Amirul Haqim<br>Contact Person : 089670068639<br>FB : Anang Syah Amirul Haqim<br>E-Mail : anangsyah766@gmail.com</p>
+                </div>
+                <div class="col-3">
+                    <h2>MANAGER</h2>
+                    <p>Muhammad Rimba Abdillah<br>Contact Person : 0895353652521<br>FB : Muhammad Rimba<br>E-Mail : rimbachan24@gmail.com</p>
+                </div>
+                <div class="col-3">
+                    <h2>PUBLISHER</h2>
+                    <p>Miftachul Rohman<br>Contact Person : 0896548732210<br>FB : Miftachul Rohman<br>E-Mail : miftadrive@gmail.com</p>
+                </div>
+                <div class="col-3">
+                    <h2>ADMINISTRATOR</h2>
+                    <p>Reza Udin<br>Contact Person : 0895353652521<br>FB : Reza Udin<br>E-Mail : RezaUdin@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="asset/js/jquery-3.5.1.slim.min.js"></script>
+        <script src="asset/js/popper.min.js"></script>
+        <script src="asset/js/bootstrap.min.js"></script>
+        <script>
+            x=document.getElementsByClassName("tes")[0];
+            y=x.parentNode.parentNode;
+            x.innerHTML=y.offsetWidth;
+        </script>
+    </body>
+    </html>
